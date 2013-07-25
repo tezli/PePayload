@@ -13,7 +13,7 @@ namespace Pixills.System.PePayload.Tests
             /*
              * TODO : Add proper values for 
              * infile  : signed file without payload
-             * outFile : file to be written to
+             * outFile : file to be written
              * outFile : reference file. A working file wher payload already appended
              */
             var inFile = "";

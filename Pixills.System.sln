@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixills.System.PePayload", "AppenPayload\Pixills.System.PePayload.csproj", "{C894E8DE-7B1C-4B37-8658-1556C61D0675}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixills.System.PePayload", "Pixills.System.PePayload\Pixills.System.PePayload.csproj", "{C894E8DE-7B1C-4B37-8658-1556C61D0675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixills.System.PePayload.Tests", "AppenPayload.Tests\Pixills.System.PePayload.Tests.csproj", "{B65BD3A2-34FB-4CF3-8E56-B90FE97ED056}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixills.System.PePayload.Tests", "Pixills.System.PePayload.Tests\Pixills.System.PePayload.Tests.csproj", "{B65BD3A2-34FB-4CF3-8E56-B90FE97ED056}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

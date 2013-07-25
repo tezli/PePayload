@@ -7,10 +7,11 @@
     <ProjectGuid>{B65BD3A2-34FB-4CF3-8E56-B90FE97ED056}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AppenPayload.Tests</RootNamespace>
-    <AssemblyName>AppenPayload.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RootNamespace>Pixills.System.PePayload.Tests</RootNamespace>
+    <AssemblyName>Pixills.System.PePayload.Tests</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,18 +46,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="testfiles\free-system-utilities_1.1_de-DE.exe">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="testfiles\freemium_dlg_raw_shell_flow2_net35.exe">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AppenPayload\Pixills.System.PePayload.csproj">
+    <ProjectReference Include="..\Pixills.System.PePayload\Pixills.System.PePayload.csproj">
       <Project>{c894e8de-7b1c-4b37-8658-1556c61d0675}</Project>
       <Name>Pixills.System.PePayload</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="testfiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
