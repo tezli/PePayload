@@ -30,4 +30,4 @@ Do not use a standard xml preamble as start marker. You would get the manifest (
 Licensing
 ---------
 
-PePayload is Open Source under GPLv3.
+PePayload is Open Source under MIT License
